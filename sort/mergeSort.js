@@ -1,6 +1,6 @@
-let arr = [5, 2, 4, 3, 9, 7, 8, 11, 47, 32, 22, 33]
+let { array } = require('./data')
 
-let sorted = mergeSort(arr)
+let sorted = mergeSort(array)
 console.log(sorted)
 
 function mergeSort(array) {

@@ -1,4 +1,4 @@
-let array = [5, 2, 4, 3, 9, 7, 8, 299, 11, 47, 32, 22, 33, 649]
+let { array } = require('./data')
 
 let sorted = radixSort(array)
 console.log(sorted)
